@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+nav {
+    position: fixed;
+    background-color: black;
+    color: lightgray;
+    width: 100%;
+    height: 40px;
+    font-size: 12pt;
+}
+
+ul {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding: 10px 50px;
+    
+}
+
+li {
+    list-style: none;
+    margin-left: 70px;
+   
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+     text-align: center;
+     justify-content: center;
+}
+    
+
+.main {
+    padding-top: 40px;
+}
+
+#banner_one, #banner_two, #banner_three {
+    background-image: url('./desktop-wallpaper-apple-announces-iphone-11-pro-and-iphone-11-pro-max-with-triple.jpg');
+    background-size: cover;
+    height: 90vh;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    color: rgb(249, 252, 252);
+    margin-left: 0px;
+}
+main.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+.banner > * {
+    display: flex;
+    justify-content: center;
+}
+
+.banner h1 {
+    font-size: 40pt;
+}
+
+.banner h2 {
+    font-size: 26pt;
+    font-weight: lighter;
+}
+
+.banner a {
+    font-size: 16pt;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#banner_two {
+    background-image: url('./iphone-11-IMG_1452.webp');
+    color: rgb(6, 6, 6);
+    margin-left: 0px;
+}
+
+#banner_three {
+    background-image: url('./se-4-render-5-1160x653-1.webp');
+    color: rgb(6, 6, 6);
+}
+
+.category {
+    display: flex;
+}
+
+.category .box {
+    text-align: center;
+    height: 80vh;
+    width: 50%;
+    margin: 10px;
+    background-size: cover;
+    padding-top: 20px;
+    color: white;
+}
+
+.category .box a { 
+    text-decoration: none;
+    font-size: 14pt;
+    padding-top: 20px;
+}
+
+#box1 {
+    background-image: url('./WhatsApp\ Image\ 2024-12-09\ at\ 09.45.57_cd1ac449.jpg');
+}
+
+#box2 {
+    background-image: url('./WhatsApp\ Image\ 2024-12-09\ at\ 09.45.57_940a2557.jpg');
+    color: white;
+}
+
+#box3 {
+    background-image: url('./WhatsApp\ Image\ 2024-12-09\ at\ 09.45.57_f6892e95.jpg');
+    color:white;
+}
+
+#box4 {
+    background-image: url('./WhatsApp\ Image\ 2024-12-09\ at\ 09.45.57_b7f45908.jpg');
+    color: black;
+}
+
+#box2 .label {
+    color: red;
+    font-size: 14pt;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+a:hover {
+    text-decoration: underline !important;
+}
+
+.footer {
+    background-color: rgba(211,211,211,0.8);
+    width: 100%;
+    height:auto;
+}
+
+.footer .container {
+    width: 80%;
+    margin: 20px auto;
+    padding-top: 20px;
+}
+
+.footer .container > * {
+    font-size: 10pt;
+    color: black;
+}
+@media only screen and (max-width:500px){
+
+    nav {
+        position: fixed;
+        background-color: black;
+        color: lightgray;
+        width: 100%;
+        height: 40px;
+        font-size: 12pt;
+    }
+    
+    ul {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        padding: 10px ;
+    }
+    
+    li {
+        list-style: none;
+        margin-left: 33px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    li a {
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        margin-left: -5px;
+
+    }
+    
+    .main {
+        padding-top: 40px;
+    }
+    
+    #banner_one, #banner_two, #banner_three {
+        background-image: url('./desktop-wallpaper-apple-announces-iphone-11-pro-and-iphone-11-pro-max-with-triple.jpg');
+        background-size: cover;
+        height: 40vh;
+        padding-top: 20px;
+        margin-bottom: 10px;
+        color: rgb(249, 252, 252);
+    
+    }
+    .main.banner{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+       
+    }
+    
+    .banner > * {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .banner h1 {
+        font-size: 40pt;
+    }
+    
+    .banner h2 {
+        font-size: 26pt;
+    
+        font-weight: lighter;
+        text-align: center;
+       
+    }
+    
+    .banner a {
+        font-size: 16pt;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    
+    #banner_two {
+        background-image: url('./iphone-11-IMG_1452.webp');
+        color: rgb(8, 8, 8);
+        
+    }
+    
+    #banner_three {
+        background-image: url('./se-4-render-5-1160x653-1.webp');
+        color: rgb(9, 9, 9);
+        
+    }
+    
+    .category {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .category .box {
+        text-align: center;
+        height: 50vh;
+        width: 100%;
+        margin: 5px;
+        margin-left: 0px;
+        background-size: cover;
+        padding-top: 20px;
+        color: white;
+    }
+    
+    .category .box a { 
+        text-decoration: none;
+        font-size: 14pt;
+        padding-top: 20px;
+    }
+    
+    #box1 {
+        background-image: url('./WhatsApp\ Image\ 2024-12-09\ at\ 09.45.57_cd1ac449.jpg');
+       
+    }
+    
+    #box2 {
+        background-image: url('./WhatsApp\ Image\ 2024-12-09\ at\ 09.45.57_940a2557.jpg');
+        color:  white;
+    }
+    
+    #box3 {
+        background-image: url('./WhatsApp\ Image\ 2024-12-09\ at\ 09.45.57_f6892e95.jpg');
+        color: white;
+    }
+    
+    #box4 {
+        background-image: url('./WhatsApp\ Image\ 2024-12-09\ at\ 09.45.57_b7f45908.jpg');
+        color: black;
+        
+       
+    }
+    
+    #box2 .label {
+        color: red;
+        font-size: 14pt;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+    
+    a:hover {
+        text-decoration: underline !important;
+    }
+    
+    .footer {
+        background-color:  gray;
+        width: 100%;
+        height:auto;
+        color: rgba(27, 25, 25, 0.8);
+
+    }
+    
+    .footer .container {
+        width: 80%;
+        margin: 20px auto;
+        padding-top: 20px;
+    }
+    
+    .footer .container > * {
+        font-size: 10pt;
+    }
+}
